@@ -2,42 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cocktail Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
   <h1>Cocktail Menu</h1>
-  <p>Interactive menu for beginner bartenders</p>
+  <p>Menu interactivo para bartenders principiantes</p>
 </header>
 
-<div class="grid">
+<div class="bar-scene">
 
-  <div class="card">
-    <img src="images/pina-colada.png">
-    <div class="name">Piña Colada</div>
-    <div class="tag">Sweet · Tropical</div>
+  <!-- drinks sit above the table -->
+  <div class="drinks-row">
+    <div class="drink-slot beer">
+      <img src="images/beer.png" alt="Beer">
+    </div>
+    <div class="drink-slot aperol">
+      <img src="images/aperol-spritz.png" alt="Aperol Spritz">
+    </div>
+    <div class="drink-slot martini">
+      <img src="images/martini.png" alt="Martini">
+    </div>
+    <div class="drink-slot pina">
+      <img src="images/pina-colada.png" alt="Piña Colada">
+    </div>
   </div>
 
-  <div class="card">
-    <img src="images/martini.png">
-    <div class="name">Classic Martini</div>
-    <div class="tag">Dry · Strong</div>
-  </div>
-
-  <div class="card">
-    <img src="images/aperol-spritz.png">
-    <div class="name">Aperol Spritz</div>
-    <div class="tag">Bubbly · Fresh</div>
-  </div>
-
-  <div class="card">
-    <img src="images/beer.png">
-    <div class="name">Beer</div>
-    <div class="tag">Simple · Cold</div>
-  </div>
+  <!-- the actual table LOL -->
+  <div class="table"></div>
 
 </div>
 
