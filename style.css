@@ -98,3 +98,24 @@ header p {
 .drink-slot.aperol  img { --base-y: 0px;  animation: float 3.5s ease-in-out infinite 0.5s; }
 .drink-slot.martini img { --base-y: 5px;  animation: float 3.5s ease-in-out infinite 1.0s; }
 .drink-slot.pina    img { --base-y: 0px;  animation: float 3.5s ease-in-out infinite 1.5s; }
+
+@media (max-width: 768px) {
+  .drinks-row {
+    bottom: 55%;
+    padding: 0 10px;
+  }
+
+  .drink-slot img {
+    width: 70px;
+    height: 140px;
+  }
+
+  .drink-slot.beer    { margin-right: 20px; margin-bottom: -20px; }
+  .drink-slot.aperol  { margin-right: 25px; margin-bottom: 0px; }
+  .drink-slot.martini { margin-right: 20px; margin-bottom: -15px; }
+  .drink-slot.pina    { margin-right: 0; margin-bottom: -30px; }
+
+  .table {
+    height: 220px;
+  }
+}
